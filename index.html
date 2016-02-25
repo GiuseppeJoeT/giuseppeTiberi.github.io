@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Tiberi Web Design</title>
+    <meta charset"X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Bootstrap Core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script src="js/jquery-2.2.1.min.js"></script>
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" type="text/css" href="css/tiberi_web_design.css">
+
+	<!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="te xt/css">
+    <style>
+    /* Tip to see html element border 
+    	* { border:1px solid red; } */
+
+   /*  Pie chart animation style */
+        .pie-title-center {
+          display: inline-block;
+          position: relative;
+          text-align: center;
+        }
+        
+        /* percentage digit */
+        .pie-value {
+          color: #00004d;
+          display: block;
+          position: absolute;
+          font-size: 30px;
+          font-family: "Arial", "Helvetica", sans-serif;
+          font-weight: bold;
+          height: 40px;
+          top: 50%;
+          left: 0;
+          right: 0;
+          margin-top: -20px;
+          line-height: 40px;
+        }
+    </style>
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body id="page-top" class="index">
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+
+			<div class="navbar-header page-scroll">
+			<!-- page-scroll: is a jQuery function for page scrolling feature, placed in js/freelancer.js -->
+
+
+				<!-- mobile navBar menu --> 
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+
+					<!-- each .icon-bar represent white line bar in the
+					mobile navBar menu button -->
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>			
+				</button>
+				<a class="navbar-brand" href="#page-top">
+				<img class="logo" src="img/logo/logo_tiberi_Web_Design.png" alt="Tiberi Web Design logo" id="twdLogo" class="img-responsive"></a>
+
+				 <!-- Collect the nav links, forms, and other content for toggling -->	
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="hidden">
+							<a href="#page-top"></a>
+						</li>
+						 <li class="page-scroll">
+	                        <a href="#showcaseId">Showcase</a>
+	                    </li>
+	                    <li class="page-scroll">
+	                        <a href="#aboutId">About</a>
+	                    </li>
+	                     <li id="skills-button" class="page-scroll">
+	                        <a href=".skills">Skills</a>
+	                    </li>
+	                     <li class="page-scroll">
+	                        <a href="#portfolio">Work</a>
+	                    </li>
+	                     <li class="page-scroll">
+	                        <a href="#spotifyId">Spotify API</a>
+	                    </li>
+	                    <li class="page-scroll">
+	                        <a href="#contact">Contact</a>
+	                    </li>
+					</ul>
+				</div>	
+
+			</div> <!-- /. navbar-header -->
+		</div>	<!-- /. container -->
+	</nav> <!-- /. Navigation Bar -->
+
+	<!-- Showcase --> 
+	<div class="showcase" id="showcaseId">
+
+			<div class="row">
+				<div class="col-lg-12">
+					<img class="img-responsive" id="showcase_img" src="img/design_your_world.png" alt="Showcase pic - Designing your world">
+				</div>
+			</div> <!-- /. row -->
+
+	</div> <!-- /. showcase -->
+
+	<!-- About -->
+	<section class="about" id="aboutId">
+		<div class="container">
+			<div class="row"> 
+				<div class="col-lg-12">
+					<h1 class="text-center">About Me</h1>
+					<div class="col-lg-6">
+                    	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+						
+						<h3>Meet a Web Developer</h3>
+
+                    	<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                	</div>
+                	<div class="col-lg-3"></div>
+               		 <div class="col-lg-3">
+                    	<img class="img-responsive" src="img/giuseppe_tiberi_500x653.jpg" alt="Giuseppe Tiberi picture">
+                	</div>
+
+				</div>
+			</div> <!-- /. row -->
+		</div> <!-- /. container -->
+	</section> <!-- /. About section -->
+
+
+    
+
+
+    <!-- @begin TO BE REVIEWED -->    
+    <style>
+        #skillsId { border:0; margin-bottom: 50px;}
+        .hidden { display: none; }
+    </style>
+    <hr id="skillsId"/>
+        <!-- @end TO BE REVIEWED -->     
+    
+    <!-- Skills -->
+    <div class="skills">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h1 class="text-center">Skills</h1>
+			
+                  
+                  <div class="row">
+
+                     <!--  HTML5 -->
+                     <div class="col-lg-3 col-md-3 col-xs-12 ">
+                         <div id="demo-pie-1" class="pie-title-center" data-percent="75"> 
+                             <span class="pie-value"></span> 
+                         </div>
+                      </div>  <!-- close HTML5 columns class-->
+                      
+                      <!-- Javascript/ ECMA 5 -->
+                      <div class="col-lg-3 col-md-3 col-xs-12 ">
+                          <div id="demo-pie-2" class="pie-title-center" data-percent="60"> 
+                              <span class="pie-value"></span> 
+                          </div>
+                      </div>  <!-- close HTML5 columns class-->
+      
+                       <!--  PHP 5.7 -->
+                      <div class="col-lg-3 col-md-3 col-xs-12 ">
+                            <div id="demo-pie-3" class="pie-title-center" data-percent="70"> 
+                                  <span class="pie-value"></span> 
+                            </div>
+                       </div>  <!-- close HTML5 columns class-->
+
+                      <!--  DATABASE - SQL -->
+                      <div class="col-lg-3 col-md-3 col-xs-12 ">
+                             <div id="demo-pie-4" class="pie-title-center" data-percent="60">
+                                  <span class="pie-value"></span> 
+                             </div>
+                      </div>  <!-- close HTML5 columns class-->
+
+                     </div> <!-- close pie chart row--> 
+
+				</div> <!-- /. main row col-lg-12--> 
+			</div> <!-- /. row -->
+		</div> <!-- /. container -->	
+	</div>
+
+	<!-- Work 
+	<div class="work" id="workId"> -->
+		  <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Work</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/01_verde_website_900x650.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/02_calfin_website_900x650.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/circus.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/game.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/safe.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	<!-- *** Spotify API section *** -->
+	<div class="spotifyAPI" id="spotifyId">
+         <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1>Spotify API</h1>
+                    <form>
+                        <fieldset>
+                            <legend>Look for your favourite artist</legend>
+                            <input value="" placeholder="Write the artist to find...">
+                            <button>search!</button>
+                        </fieldset>
+                    </form>
+
+                    <form>
+                        <fieldset>
+                            <legend>Select from the artists found</legend>
+                            <select id="artists"></select>
+                        </fieldset>
+                    </form>
+
+                    <form>
+                        <fieldset>
+                            <legend>Select an album</legend>
+                            <select id="albums"></select>
+                        </fieldset>
+                    </form>
+
+                    <ul id="tracksContainerID" ></ul>
+                </div> 
+            </div>
+		</div>
+	</div>
+
+	    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Contact Me</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Name</label>
+                                <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Email Address</label>
+                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Phone Number</label>
+                                <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="row control-group">
+                            <div class="form-group col-xs-12 floating-label-form-group controls">
+                                <label>Message</label>
+                                <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <br>
+                        <div id="success"></div>
+                        <div class="row">
+                            <div class="form-group col-xs-12">
+                                <button type="submit" class="btn btn-success btn-lg">Send</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Tiberi Web Design 2016
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/freelancer.js"></script>
+    
+    <!-- Waypoint -->
+    <script src="js/lib/jquery.waypoints.js"></script> 
+
+    <!-- Pie-Chart.js -->
+    <script src="js/pie-chart.js"></script> 
+    <script src="js/my-charts.js"></script> 
+
+    <!-- Spotify API Ajax -->
+    <script src="js/spotifyApiAjax.js"></script> 
+
+
+</body>
+</html>
