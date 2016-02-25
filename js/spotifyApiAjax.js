@@ -4,6 +4,7 @@
 		var $button = $("form button");
 		var $artistsSelect = $("#artists");
 		var $albumsSelect = $("#albums");
+			/* tracksContainerID  select the right <Ul> in the web page */
 		var $TracksContainer = $("#tracksContainerID");
 
 		$button.on("click", function(e) {
