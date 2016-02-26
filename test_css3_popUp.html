@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test Css3 popUp</title>
+	<link rel="stylesheet" type="text/css" href="popups.css" type="text/css" />
+</head>
+<body>
+		<h1>Making popUps withouth javascript!</h1>
+		<p>When you know what to copy/paste without figuring it out, that is.</p>
+		
+		<!-- this label makes the popup appear on click; can be anywhere-->
+		<label for="our-popup">Click on this to make the popup appear</label>
+
+		<!-- be sure to enclose the popup into a parent wrapper when using many popups -->
+		<span>
+			<input type="checkbox" id="our-popup" class="smoosh"> <!-- invisible; when checked, the popup opens -->
+			<label for="our-popup" class="overlay"></label>
+			
+			<!-- the popup starts here-->
+			<div class="overlay-dialogue">
+				<h2>Whatever you need to write</h2>
+				<p>Content goes here</p>
+				<label for="our-popUp">Close</label>
+			</div>
+		</span>	
+</body>
+</html>
