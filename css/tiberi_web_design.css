@@ -107,6 +107,11 @@ header .intro-text .skills {
  #skillLogo { 
         width: 100px;
     }
+
+/* About Me */
+ #aboutId > div > div > div > h1 {
+ 	margin-bottom: 30px;
+ }
 /****** Media Queries *****/
 
 @media(min-width:768px) {
